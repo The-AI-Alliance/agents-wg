@@ -1,0 +1,14 @@
+title: Agents Working Group
+email: trevor.grant@ibm.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A Working Group For Agents. It's actually for people interested in Agents, but Agents can join too. Welcome to the Dead Internet.
+baseurl: "/agents-wg"
+url: "https://the-ai-alliance.github.io"
+github_username:  The-AI-Alliance
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
