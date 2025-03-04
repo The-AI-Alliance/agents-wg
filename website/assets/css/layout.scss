@@ -1,0 +1,12 @@
+// Add gutters to the main content area
+.main-content {
+    margin-left: 20px;  // Adjust the value as needed
+    margin-right: 20px; // Adjust the value as needed
+}
+
+// Optionally, adjust the width of the content area to prevent overflow
+.main-content {
+    max-width: 1200px;  // Adjust the value as needed
+    margin-left: auto;
+    margin-right: auto;
+}

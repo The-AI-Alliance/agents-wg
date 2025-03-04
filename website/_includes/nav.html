@@ -1,8 +1,28 @@
-<nav>
-  <ul>
-    <li><a href="{{ '/' | relative_url }}">Home</a></li>
-    <li><a href="{{ '/about' | relative_url }}">About Us</a></li>
-    <li><a href="{{ '/join' | relative_url }}">Join Us</a></li>
-    <li><a href="{{ '/announcements' | relative_url }}">Announcements</a></li>
-  </ul>
+<nav class="navbar">
+  <div class="navbar-container">
+    <a href="{{ '/' | relative_url }}" class="site-title">Agents Working Group</a>
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="{{ '/about' | relative_url }}" class="nav-link">About</a>
+      </li>
+  <!--    <li class="nav-item dropdown">-->
+  <!--      <a href="/services" class="nav-link">Services ▼</a>-->
+  <!--      <ul class="dropdown-menu">-->
+  <!--        <li><a href="/services/web-design">Web Design</a></li>-->
+  <!--        <li><a href="/services/seo">SEO</a></li>-->
+  <!--        <li><a href="/services/marketing">Marketing</a></li>-->
+  <!--      </ul>-->
+  <!--    </li>-->
+      <li class="nav-item">
+        <a href="{{ '/join' | relative_url }}" class="nav-link">Join Us</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ '/announcements' | relative_url }}" class="nav-link">Announcements</a>
+      </li>
+      <li class="nav-item">
+        <a href="https://thealliance.ai/" class="nav-link">The AI Alliance</a>
+      </li>
+    </ul>
+  </div>
 </nav>
+
