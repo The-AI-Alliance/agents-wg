@@ -30,3 +30,13 @@ footer a:hover {
 main {
   padding-bottom: 6rem; /* Add padding to prevent content from being hidden behind the footer */
 }
+
+footer .fa-github {
+  font-size: 1.5rem; /* Adjust the size of the icon */
+  margin-right: 0.5rem; /* Add some spacing between the icon and text */
+  color: #00aaff; /* Match the link color of the site */
+}
+
+footer .fa-github:hover {
+  color: #fff; /* Change icon color on hover */
+}
