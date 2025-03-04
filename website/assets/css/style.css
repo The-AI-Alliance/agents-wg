@@ -1,0 +1,182 @@
+/* Typography */
+.title {
+    font-size: 42px;
+    line-height: 46.2px;
+    letter-spacing: -2%;
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 74px;
+        line-height: 81.4px;
+    }
+}
+
+.title-lg {
+    font-size: 42px;
+    line-height: 46.2px;
+    letter-spacing: -2%;
+}
+
+@media (min-width: 768px) {
+    .title-lg {
+        font-size: 64px;
+        line-height: 70.4px;
+    }
+}
+
+.title-md {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    line-height: 26.4px;
+    letter-spacing: -6%;
+    color: rgb(244 244 244);
+}
+
+.title-sm {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    line-height: 19.8px;
+    letter-spacing: -2%;
+    color: rgb(244 244 244);
+}
+
+/* Layout */
+.container {
+    width: 100%;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* Colors */
+.text-white {
+    color: rgb(255 255 255);
+}
+
+.bg-black {
+    background-color: rgb(0 0 0);
+}
+
+.bg-gray-900 {
+    background-color: rgb(18 18 18);
+}
+
+/* Utilities */
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+/* Dark Theme */
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+
+/* Links */
+a {
+    color: #00aaff; /* Light blue for links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #fff; /* White on hover */
+}
+
+/* Buttons */
+button {
+    background-color: #00aaff; /* Light blue */
+    color: #fff; /* White text */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0077cc; /* Darker blue on hover */
+}
+
+/* Cards */
+.card {
+    background-color: #1a1a1a; /* Dark gray */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #333; /* Slightly lighter border */
+}
+
+.card:hover {
+    border-color: #00aaff; /* Light blue border on hover */
+}
+
+/* Apply IBM Plex Sans to the entire site */
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Default weight */
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* Example: Apply different weights */
+.title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700; /* Bold */
+}
+
+.title-md {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600; /* Semi-bold */
+}
+
+.title-sm {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500; /* Medium */
+}
+
