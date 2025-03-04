@@ -1,0 +1,15 @@
+/* Main content area */
+main {
+    padding-left: 1.5rem;  /* Left gutter */
+    padding-right: 1.5rem; /* Right gutter */
+    max-width: 1200px;     /* Optional: Limit the max width for better readability */
+    margin: 0 auto;        /* Center the content */
+}
+
+/* Ensure the container class also has consistent padding */
+.container {
+    padding-left: 1.5rem;  /* Left gutter */
+    padding-right: 1.5rem; /* Right gutter */
+    max-width: 1200px;     /* Optional: Limit the max width for better readability */
+    margin: 0 auto;        /* Center the content */
+}

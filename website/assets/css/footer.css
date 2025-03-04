@@ -1,0 +1,32 @@
+/* Footer Styles */
+footer {
+  text-align: center; /* Center the text horizontally */
+  padding: 1rem 0; /* Add some padding for spacing */
+  background-color: #000; /* Match the background color of the site */
+  color: #fff; /* Match the text color of the site */
+  margin-top: 2rem; /* Add some margin at the top to separate from content */
+  border-top: 2px solid #00aaff; /* Add a horizontal bar at the top */
+  position: fixed; /* Make the footer sticky */
+  bottom: 0; /* Stick it to the bottom */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+footer p {
+  margin: 0.5rem 0; /* Add some margin between paragraphs */
+}
+
+footer a {
+  color: #00aaff; /* Match the link color of the site */
+  text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+  color: #fff; /* Change link color on hover */
+}
+
+/* Main Content Styles */
+main {
+  padding-bottom: 6rem; /* Add padding to prevent content from being hidden behind the footer */
+}
