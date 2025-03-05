@@ -18,3 +18,24 @@
 .navbar-custom .navbar-toggler {
   border-color: rgba(255,255,255,0.5);
 }
+
+/* Custom Dropdown Styles */
+.navbar-custom .dropdown-menu {
+  background-color: #000;
+  border: 1px solid #333;
+}
+
+.navbar-custom .dropdown-item {
+  color: #fff !important;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-custom .dropdown-item:hover {
+  background-color: #333;
+  color: #00aaff !important;
+}
+
+.navbar-custom .dropdown-toggle::after {
+  margin-left: 0.5rem;
+}

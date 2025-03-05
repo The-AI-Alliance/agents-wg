@@ -8,11 +8,22 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
+
         <li class="nav-item">
           <a class="nav-link" href="{{ '/about' | relative_url }}">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/join' | relative_url }}">Join Us</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">
+            Community
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="{{ '/join' | relative_url }}">Join Us</a>
+              <a class="dropdown-item" href="{{ '/contributing' | relative_url }}">Contributing</a>
+            </li>
+            <!-- Add more dropdown items here if needed -->
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ '/announcements' | relative_url }}">Announcements</a>
