@@ -156,10 +156,17 @@ button:hover {
 }
 
 /* Apply IBM Plex Sans to the entire site */
+/* Dark Theme */
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/* Apply IBM Plex Sans to the entire site */
+body {
+    font-family: 'IBM Plex Sans', sans-serif !important;
     font-optical-sizing: auto;
-    font-weight: 400; /* Default weight */
+    font-weight: 400;
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
