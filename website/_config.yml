@@ -5,6 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/agents-wg"
 url: "https://the-ai-alliance.github.io"
 github_username:  The-AI-Alliance
+google_tag_id:  G-RNHLN944B5
 
 # Build settings
 markdown: kramdown
